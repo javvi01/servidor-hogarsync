@@ -1,0 +1,8 @@
+# Opcional: publicar en Render (plan gratuito, sirve para probar).
+services:
+  - type: web
+    name: hogarsync
+    runtime: node
+    plan: free
+    buildCommand: echo "sin dependencias"
+    startCommand: node servidor_hogar.js
