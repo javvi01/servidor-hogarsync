@@ -1,0 +1,8 @@
+{
+  "name": "servidor-hogar",
+  "version": "1.0.0",
+  "description": "Servidor de sincronización de HogarSync (sin dependencias)",
+  "main": "servidor_hogar.js",
+  "scripts": { "start": "node servidor_hogar.js" },
+  "engines": { "node": ">=18" }
+}
